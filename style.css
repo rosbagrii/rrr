@@ -1,0 +1,111 @@
+html, body { 
+    width: 100%;
+    height: 100%; 
+    margin: 0;
+    background: #270F34; 
+    overflow: hidden; 
+    display: flex; 
+    align-items: center;
+    justify-content: center;
+    contain: content;
+    overflow: clip;
+}
+
+#topBox {
+    position: absolute;
+    display: flex;
+    justify-content: center;
+    margin-top: -400px;
+}
+
+#heading {
+        font-family: 'Brush Script MT';
+        font-size: 140px;
+        margin-top: -10px;
+}
+
+#startToPlay{
+    position: absolute;
+    z-index: 1;
+    margin-bottom: -400px;
+    height: 50px;
+    width: 200px;
+    font-family: 'Brush Script MT';
+    font-size: 25px;
+    border-radius: 7px;
+    background-color:pink;      
+}
+
+#startToPlay:hover {
+    background-color:rgb(125, 87, 115);
+}
+
+#popup {
+    height: 500px;
+    width: 500px;
+    background:violet;
+    border: 3px solid black;
+    position: absolute;
+    z-index: 2;
+    border-radius: 30px;
+    text-align: center;
+    visibility: hidden;
+}
+
+#question {
+    font-size: 50px;
+    font-family:'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    margin-top: 25px;
+}
+
+.confirm {
+    position: relative;
+    height: 30px;
+    width: 100px;
+    border-radius: 5px;
+    margin: 20px;
+    background-color: rgb(161, 17, 161);
+}
+
+.confirm:hover {
+    background-color: pink;
+}
+
+
+#pablito {
+    height: 200px;
+    width: 300px;
+    position: relative;
+    margin-bottom: 25px;
+}
+
+
+.headingImg {
+    position: absolute;
+    height: 150px;
+    width: 150px;
+    opacity: 40%;
+}
+
+#würfel {
+   margin-left: -1250px;
+}
+
+#geld {
+    margin-right: -1250px;
+}
+
+#hiddenText {
+    position: absolute;
+    font-size: 25px;
+    visibility: hidden;
+    margin-top: -200px;
+    margin-left: 130px;
+}
+
+#audio {
+    position: absolute;     
+    margin-top: 700px;
+    
+    
+}
